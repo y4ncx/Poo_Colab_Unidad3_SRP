@@ -10,7 +10,7 @@ public class Main {
             System.out.println("Los datos del usuario son válidos.");    
         } 
         else {
-            System.out.println("Los datos del usuario no son correctas," + "\n"
+            System.out.println("Los datos del usuario no son correctas," + "\n" +
             "por favor, vuelva a intentarlo.");
         }
         
