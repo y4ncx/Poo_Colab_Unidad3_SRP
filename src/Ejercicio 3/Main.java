@@ -7,9 +7,10 @@ public class Main {
 
         ValidacionUsuario validador = new ValidacionUsuario();
         if (validador.validar(usuario)) {
-            System.out.println("Los datos del son válidos.");
-        } else {
-            System.out.println("Los datos del usuario no son incorrectos," + "\n"
+            System.out.println("Los datos del usuario son válidos.");    
+        } 
+        else {
+            System.out.println("Los datos del usuario no son correctas," + "\n"
             "por favor, vuelva a intentarlo.");
         }
         
